@@ -1,5 +1,4 @@
 import requests
-import json
 
 def get_weather(longitude, latitude, postcode):
     WEATHER_ENDPOINT = "https://api.openweathermap.org/data/2.5/weather"    #Weather endpoint
